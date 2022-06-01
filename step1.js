@@ -13,4 +13,4 @@ const cat = (path) => {
 		}
 	})
 }
-cat('./poem.txt')
+cat(process.argv[2])
